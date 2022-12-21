@@ -1,0 +1,966 @@
+Namespace(data_path='/home/ma-user/work/data/2d_lung_seg', device_id=0, epochs=4000, eval_batch_size=8, keep_ckpt_max=1, load_ckpt_path='', loss_function='CE', loss_scale=1024.0, lr=0.0001, number_class=2, save_ckpt_path='ckpt', sink_steps=100, train_batch_size=16, weight_decay=0.0005)
+[WARNING] ME(151519:281473037939088,MainProcess):2021-11-22-06:33:09.635.623 [mindspore/nn/loss/loss.py:103] '_Loss' is deprecated from version 1.3 and will be removed in a future version, use 'LossBase' instead.
+train data steps 6
+train data epochs 240
+## epoch start ##
+[WARNING] SESSION(151519,fffe177fe1e0,python):2021-11-22-06:33:36.164.451 [mindspore/ccsrc/backend/session/ascend_session.cc:1377] SelectKernel] There are 23 node/nodes used raise precision to selected the kernel!
+epoch: 1 step: 6, loss is 0.6696522
+epoch time: 41701.575 ms, per step time: 6950.262 ms
+ Epoch 1/240, Eval_dice_loss:0.347767410144665, EvalTime 18s
+## epoch start ##
+epoch: 2 step: 6, loss is 0.6327967
+epoch time: 625.494 ms, per step time: 104.249 ms
+ Epoch 2/240, Eval_dice_loss:0.370527306900479, EvalTime 3s
+## epoch start ##
+epoch: 3 step: 6, loss is 0.6034363
+epoch time: 730.407 ms, per step time: 121.734 ms
+ Epoch 3/240, Eval_dice_loss:0.38609402030417606, EvalTime 3s
+## epoch start ##
+epoch: 4 step: 6, loss is 0.5756949
+epoch time: 749.913 ms, per step time: 124.986 ms
+ Epoch 4/240, Eval_dice_loss:0.4037151001909647, EvalTime 3s
+## epoch start ##
+epoch: 5 step: 6, loss is 0.56532073
+epoch time: 803.114 ms, per step time: 133.852 ms
+ Epoch 5/240, Eval_dice_loss:0.4290117754966771, EvalTime 3s
+## epoch start ##
+epoch: 6 step: 6, loss is 0.53926396
+epoch time: 770.489 ms, per step time: 128.415 ms
+ Epoch 6/240, Eval_dice_loss:0.4474160059175521, EvalTime 3s
+## epoch start ##
+epoch: 7 step: 6, loss is 0.5265276
+epoch time: 772.644 ms, per step time: 128.774 ms
+ Epoch 7/240, Eval_dice_loss:0.45933411683240405, EvalTime 3s
+## epoch start ##
+epoch: 8 step: 6, loss is 0.52143896
+epoch time: 792.385 ms, per step time: 132.064 ms
+ Epoch 8/240, Eval_dice_loss:0.47317051788193787, EvalTime 4s
+## epoch start ##
+epoch: 9 step: 6, loss is 0.5265421
+epoch time: 827.786 ms, per step time: 137.964 ms
+ Epoch 9/240, Eval_dice_loss:0.48189259346031266, EvalTime 3s
+## epoch start ##
+epoch: 10 step: 6, loss is 0.49552602
+epoch time: 849.299 ms, per step time: 141.550 ms
+ Epoch 10/240, Eval_dice_loss:0.4913507932105035, EvalTime 3s
+## epoch start ##
+epoch: 11 step: 6, loss is 0.47266412
+epoch time: 836.173 ms, per step time: 139.362 ms
+ Epoch 11/240, Eval_dice_loss:0.4982862230008977, EvalTime 4s
+## epoch start ##
+epoch: 12 step: 6, loss is 0.49618238
+epoch time: 809.861 ms, per step time: 134.977 ms
+ Epoch 12/240, Eval_dice_loss:0.5029182262318608, EvalTime 4s
+## epoch start ##
+epoch: 13 step: 6, loss is 0.47832346
+epoch time: 862.275 ms, per step time: 143.713 ms
+ Epoch 13/240, Eval_dice_loss:0.5035054327949575, EvalTime 3s
+## epoch start ##
+epoch: 14 step: 6, loss is 0.47794282
+epoch time: 804.585 ms, per step time: 134.097 ms
+ Epoch 14/240, Eval_dice_loss:0.5109985758370764, EvalTime 4s
+## epoch start ##
+epoch: 15 step: 6, loss is 0.48421633
+epoch time: 824.250 ms, per step time: 137.375 ms
+ Epoch 15/240, Eval_dice_loss:0.5153083241465866, EvalTime 4s
+## epoch start ##
+epoch: 16 step: 6, loss is 0.4737362
+epoch time: 770.603 ms, per step time: 128.434 ms
+ Epoch 16/240, Eval_dice_loss:0.5163357486434352, EvalTime 4s
+## epoch start ##
+epoch: 17 step: 6, loss is 0.46177608
+epoch time: 744.462 ms, per step time: 124.077 ms
+ Epoch 17/240, Eval_dice_loss:0.5115619206973362, EvalTime 3s
+## epoch start ##
+epoch: 18 step: 6, loss is 0.45387977
+epoch time: 744.582 ms, per step time: 124.097 ms
+ Epoch 18/240, Eval_dice_loss:0.5154311642349717, EvalTime 3s
+## epoch start ##
+epoch: 19 step: 6, loss is 0.48730677
+epoch time: 759.259 ms, per step time: 126.543 ms
+ Epoch 19/240, Eval_dice_loss:0.5232614492568131, EvalTime 3s
+## epoch start ##
+epoch: 20 step: 6, loss is 0.4743356
+epoch time: 763.415 ms, per step time: 127.236 ms
+ Epoch 20/240, Eval_dice_loss:0.5172761737407687, EvalTime 4s
+## epoch start ##
+epoch: 21 step: 6, loss is 0.45060894
+epoch time: 782.823 ms, per step time: 130.470 ms
+ Epoch 21/240, Eval_dice_loss:0.5162486120993077, EvalTime 3s
+## epoch start ##
+epoch: 22 step: 6, loss is 0.44842663
+epoch time: 753.564 ms, per step time: 125.594 ms
+ Epoch 22/240, Eval_dice_loss:0.5217884866991261, EvalTime 4s
+## epoch start ##
+epoch: 23 step: 6, loss is 0.45124108
+epoch time: 777.132 ms, per step time: 129.522 ms
+ Epoch 23/240, Eval_dice_loss:0.5153360923476105, EvalTime 4s
+## epoch start ##
+epoch: 24 step: 6, loss is 0.44429708
+epoch time: 800.784 ms, per step time: 133.464 ms
+ Epoch 24/240, Eval_dice_loss:0.5186936082902299, EvalTime 4s
+## epoch start ##
+epoch: 25 step: 6, loss is 0.44029588
+epoch time: 807.013 ms, per step time: 134.502 ms
+ Epoch 25/240, Eval_dice_loss:0.5309804430588178, EvalTime 4s
+## epoch start ##
+epoch: 26 step: 6, loss is 0.45283964
+epoch time: 777.323 ms, per step time: 129.554 ms
+ Epoch 26/240, Eval_dice_loss:0.5256688530639836, EvalTime 4s
+## epoch start ##
+epoch: 27 step: 6, loss is 0.4312022
+epoch time: 749.678 ms, per step time: 124.946 ms
+ Epoch 27/240, Eval_dice_loss:0.532390347411854, EvalTime 4s
+## epoch start ##
+epoch: 28 step: 6, loss is 0.42870733
+epoch time: 736.897 ms, per step time: 122.816 ms
+ Epoch 28/240, Eval_dice_loss:0.5313086029405909, EvalTime 4s
+## epoch start ##
+epoch: 29 step: 6, loss is 0.44500533
+epoch time: 730.079 ms, per step time: 121.680 ms
+ Epoch 29/240, Eval_dice_loss:0.5252593021724508, EvalTime 4s
+## epoch start ##
+epoch: 30 step: 6, loss is 0.44040155
+epoch time: 736.938 ms, per step time: 122.823 ms
+ Epoch 30/240, Eval_dice_loss:0.5364526257816951, EvalTime 4s
+## epoch start ##
+epoch: 31 step: 6, loss is 0.43572
+epoch time: 725.747 ms, per step time: 120.958 ms
+ Epoch 31/240, Eval_dice_loss:0.5391356260984504, EvalTime 4s
+## epoch start ##
+epoch: 32 step: 6, loss is 0.4286937
+epoch time: 750.623 ms, per step time: 125.104 ms
+ Epoch 32/240, Eval_dice_loss:0.540034506261874, EvalTime 4s
+## epoch start ##
+epoch: 33 step: 6, loss is 0.4168603
+epoch time: 710.067 ms, per step time: 118.344 ms
+ Epoch 33/240, Eval_dice_loss:0.5428769156468872, EvalTime 4s
+## epoch start ##
+epoch: 34 step: 6, loss is 0.44311032
+epoch time: 773.091 ms, per step time: 128.849 ms
+ Epoch 34/240, Eval_dice_loss:0.552938065604753, EvalTime 4s
+## epoch start ##
+epoch: 35 step: 6, loss is 0.4198443
+epoch time: 805.973 ms, per step time: 134.329 ms
+ Epoch 35/240, Eval_dice_loss:0.5403037268060963, EvalTime 4s
+## epoch start ##
+epoch: 36 step: 6, loss is 0.41490418
+epoch time: 806.916 ms, per step time: 134.486 ms
+ Epoch 36/240, Eval_dice_loss:0.547159328483367, EvalTime 4s
+## epoch start ##
+epoch: 37 step: 6, loss is 0.41779003
+epoch time: 750.037 ms, per step time: 125.006 ms
+ Epoch 37/240, Eval_dice_loss:0.5488868253132081, EvalTime 3s
+## epoch start ##
+epoch: 38 step: 6, loss is 0.40644485
+epoch time: 739.078 ms, per step time: 123.180 ms
+ Epoch 38/240, Eval_dice_loss:0.5513775099108978, EvalTime 4s
+## epoch start ##
+epoch: 39 step: 6, loss is 0.40767467
+epoch time: 916.226 ms, per step time: 152.704 ms
+ Epoch 39/240, Eval_dice_loss:0.5502465817983048, EvalTime 3s
+## epoch start ##
+epoch: 40 step: 6, loss is 0.41489074
+epoch time: 820.825 ms, per step time: 136.804 ms
+ Epoch 40/240, Eval_dice_loss:0.5679831227843085, EvalTime 4s
+## epoch start ##
+epoch: 41 step: 6, loss is 0.40217447
+epoch time: 735.654 ms, per step time: 122.609 ms
+ Epoch 41/240, Eval_dice_loss:0.5618721608349299, EvalTime 4s
+## epoch start ##
+epoch: 42 step: 6, loss is 0.40743586
+epoch time: 771.532 ms, per step time: 128.589 ms
+ Epoch 42/240, Eval_dice_loss:0.5642690570677322, EvalTime 4s
+## epoch start ##
+epoch: 43 step: 6, loss is 0.41501054
+epoch time: 826.597 ms, per step time: 137.766 ms
+ Epoch 43/240, Eval_dice_loss:0.5557957828040546, EvalTime 4s
+## epoch start ##
+epoch: 44 step: 6, loss is 0.4100011
+epoch time: 754.596 ms, per step time: 125.766 ms
+ Epoch 44/240, Eval_dice_loss:0.5644820524870164, EvalTime 4s
+## epoch start ##
+epoch: 45 step: 6, loss is 0.39969155
+epoch time: 828.093 ms, per step time: 138.015 ms
+ Epoch 45/240, Eval_dice_loss:0.5648801448409834, EvalTime 3s
+## epoch start ##
+epoch: 46 step: 6, loss is 0.40405935
+epoch time: 791.237 ms, per step time: 131.873 ms
+ Epoch 46/240, Eval_dice_loss:0.5745156910649133, EvalTime 4s
+## epoch start ##
+epoch: 47 step: 6, loss is 0.3980699
+epoch time: 784.963 ms, per step time: 130.827 ms
+ Epoch 47/240, Eval_dice_loss:0.5697586006459291, EvalTime 4s
+## epoch start ##
+epoch: 48 step: 6, loss is 0.39556587
+epoch time: 738.912 ms, per step time: 123.152 ms
+ Epoch 48/240, Eval_dice_loss:0.5666525732188723, EvalTime 4s
+## epoch start ##
+epoch: 49 step: 6, loss is 0.40427634
+epoch time: 754.478 ms, per step time: 125.746 ms
+ Epoch 49/240, Eval_dice_loss:0.5622081511907765, EvalTime 4s
+## epoch start ##
+epoch: 50 step: 6, loss is 0.38118744
+epoch time: 755.285 ms, per step time: 125.881 ms
+ Epoch 50/240, Eval_dice_loss:0.5803040772257076, EvalTime 4s
+## epoch start ##
+epoch: 51 step: 6, loss is 0.3891905
+epoch time: 790.035 ms, per step time: 131.673 ms
+ Epoch 51/240, Eval_dice_loss:0.5588536107902656, EvalTime 4s
+## epoch start ##
+epoch: 52 step: 6, loss is 0.39814928
+epoch time: 789.735 ms, per step time: 131.622 ms
+ Epoch 52/240, Eval_dice_loss:0.5749975081838681, EvalTime 4s
+## epoch start ##
+epoch: 53 step: 6, loss is 0.38912836
+epoch time: 791.359 ms, per step time: 131.893 ms
+ Epoch 53/240, Eval_dice_loss:0.5871766232755634, EvalTime 4s
+## epoch start ##
+epoch: 54 step: 6, loss is 0.38867936
+epoch time: 759.088 ms, per step time: 126.515 ms
+ Epoch 54/240, Eval_dice_loss:0.5698304267531328, EvalTime 4s
+## epoch start ##
+epoch: 55 step: 6, loss is 0.38784656
+epoch time: 815.457 ms, per step time: 135.910 ms
+ Epoch 55/240, Eval_dice_loss:0.5735029574298907, EvalTime 4s
+## epoch start ##
+epoch: 56 step: 6, loss is 0.37667322
+epoch time: 762.882 ms, per step time: 127.147 ms
+ Epoch 56/240, Eval_dice_loss:0.5818110427764381, EvalTime 4s
+## epoch start ##
+epoch: 57 step: 6, loss is 0.38047138
+epoch time: 752.632 ms, per step time: 125.439 ms
+ Epoch 57/240, Eval_dice_loss:0.5719600724975841, EvalTime 4s
+## epoch start ##
+epoch: 58 step: 6, loss is 0.37724918
+epoch time: 727.936 ms, per step time: 121.323 ms
+ Epoch 58/240, Eval_dice_loss:0.5883933560898823, EvalTime 4s
+## epoch start ##
+epoch: 59 step: 6, loss is 0.36362323
+epoch time: 780.900 ms, per step time: 130.150 ms
+ Epoch 59/240, Eval_dice_loss:0.5891805719633604, EvalTime 4s
+## epoch start ##
+epoch: 60 step: 6, loss is 0.3779136
+epoch time: 796.367 ms, per step time: 132.728 ms
+ Epoch 60/240, Eval_dice_loss:0.5990060296699905, EvalTime 4s
+## epoch start ##
+epoch: 61 step: 6, loss is 0.35811064
+epoch time: 749.047 ms, per step time: 124.841 ms
+ Epoch 61/240, Eval_dice_loss:0.6033539678194028, EvalTime 4s
+## epoch start ##
+epoch: 62 step: 6, loss is 0.3887763
+epoch time: 818.627 ms, per step time: 136.438 ms
+ Epoch 62/240, Eval_dice_loss:0.5297282973520611, EvalTime 4s
+## epoch start ##
+epoch: 63 step: 6, loss is 0.36879677
+epoch time: 787.285 ms, per step time: 131.214 ms
+ Epoch 63/240, Eval_dice_loss:0.5419036662166004, EvalTime 4s
+## epoch start ##
+epoch: 64 step: 6, loss is 0.33150008
+epoch time: 773.933 ms, per step time: 128.989 ms
+ Epoch 64/240, Eval_dice_loss:0.636062450674027, EvalTime 4s
+## epoch start ##
+epoch: 65 step: 6, loss is 0.36766812
+epoch time: 743.754 ms, per step time: 123.959 ms
+ Epoch 65/240, Eval_dice_loss:0.5605259702219736, EvalTime 4s
+## epoch start ##
+epoch: 66 step: 6, loss is 0.37964723
+epoch time: 728.212 ms, per step time: 121.369 ms
+ Epoch 66/240, Eval_dice_loss:0.6189197270357192, EvalTime 4s
+## epoch start ##
+epoch: 67 step: 6, loss is 0.37052915
+epoch time: 750.406 ms, per step time: 125.068 ms
+ Epoch 67/240, Eval_dice_loss:0.607494653355699, EvalTime 4s
+## epoch start ##
+epoch: 68 step: 6, loss is 0.34737623
+epoch time: 758.373 ms, per step time: 126.395 ms
+ Epoch 68/240, Eval_dice_loss:0.6096216494159309, EvalTime 4s
+## epoch start ##
+epoch: 69 step: 6, loss is 0.36436486
+epoch time: 728.422 ms, per step time: 121.404 ms
+ Epoch 69/240, Eval_dice_loss:0.45893209438461663, EvalTime 4s
+## epoch start ##
+epoch: 70 step: 6, loss is 0.34149542
+epoch time: 748.882 ms, per step time: 124.814 ms
+ Epoch 70/240, Eval_dice_loss:0.6125263082341202, EvalTime 4s
+## epoch start ##
+epoch: 71 step: 6, loss is 0.33092856
+epoch time: 754.545 ms, per step time: 125.757 ms
+ Epoch 71/240, Eval_dice_loss:0.6198330072165129, EvalTime 4s
+## epoch start ##
+epoch: 72 step: 6, loss is 0.35986215
+epoch time: 729.700 ms, per step time: 121.617 ms
+ Epoch 72/240, Eval_dice_loss:0.600553079065854, EvalTime 4s
+## epoch start ##
+epoch: 73 step: 6, loss is 0.35490465
+epoch time: 775.409 ms, per step time: 129.235 ms
+ Epoch 73/240, Eval_dice_loss:0.6356188087798764, EvalTime 4s
+## epoch start ##
+epoch: 74 step: 6, loss is 0.35226128
+epoch time: 720.151 ms, per step time: 120.025 ms
+ Epoch 74/240, Eval_dice_loss:0.5787768327166312, EvalTime 4s
+## epoch start ##
+epoch: 75 step: 6, loss is 0.35522607
+epoch time: 765.301 ms, per step time: 127.550 ms
+ Epoch 75/240, Eval_dice_loss:0.6155501171975121, EvalTime 4s
+## epoch start ##
+epoch: 76 step: 6, loss is 0.3652081
+epoch time: 786.167 ms, per step time: 131.028 ms
+ Epoch 76/240, Eval_dice_loss:0.5805520784561461, EvalTime 4s
+## epoch start ##
+epoch: 77 step: 6, loss is 0.34046584
+epoch time: 743.764 ms, per step time: 123.961 ms
+ Epoch 77/240, Eval_dice_loss:0.6128478580111101, EvalTime 4s
+## epoch start ##
+epoch: 78 step: 6, loss is 0.3600148
+epoch time: 799.094 ms, per step time: 133.182 ms
+ Epoch 78/240, Eval_dice_loss:0.6467285065790057, EvalTime 4s
+## epoch start ##
+epoch: 79 step: 6, loss is 0.33829695
+epoch time: 777.134 ms, per step time: 129.522 ms
+ Epoch 79/240, Eval_dice_loss:0.6378804255590333, EvalTime 4s
+## epoch start ##
+epoch: 80 step: 6, loss is 0.32532212
+epoch time: 761.508 ms, per step time: 126.918 ms
+ Epoch 80/240, Eval_dice_loss:0.6269566604871706, EvalTime 4s
+## epoch start ##
+epoch: 81 step: 6, loss is 0.35557678
+epoch time: 798.491 ms, per step time: 133.082 ms
+ Epoch 81/240, Eval_dice_loss:0.6114577644454551, EvalTime 4s
+## epoch start ##
+epoch: 82 step: 6, loss is 0.32390842
+epoch time: 787.664 ms, per step time: 131.277 ms
+ Epoch 82/240, Eval_dice_loss:0.6271425887538995, EvalTime 4s
+## epoch start ##
+epoch: 83 step: 6, loss is 0.3147317
+epoch time: 763.666 ms, per step time: 127.278 ms
+ Epoch 83/240, Eval_dice_loss:0.6168230504177233, EvalTime 4s
+## epoch start ##
+epoch: 84 step: 6, loss is 0.3256637
+epoch time: 752.415 ms, per step time: 125.403 ms
+ Epoch 84/240, Eval_dice_loss:0.6499584651871967, EvalTime 4s
+## epoch start ##
+epoch: 85 step: 6, loss is 0.32663143
+epoch time: 756.340 ms, per step time: 126.057 ms
+ Epoch 85/240, Eval_dice_loss:0.5357917008525678, EvalTime 4s
+## epoch start ##
+epoch: 86 step: 6, loss is 0.31007373
+epoch time: 780.014 ms, per step time: 130.002 ms
+ Epoch 86/240, Eval_dice_loss:0.5633173334272574, EvalTime 4s
+## epoch start ##
+epoch: 87 step: 6, loss is 0.32771495
+epoch time: 773.228 ms, per step time: 128.871 ms
+ Epoch 87/240, Eval_dice_loss:0.6038892833688131, EvalTime 4s
+## epoch start ##
+epoch: 88 step: 6, loss is 0.34561425
+epoch time: 788.387 ms, per step time: 131.398 ms
+ Epoch 88/240, Eval_dice_loss:0.6584952702820538, EvalTime 4s
+## epoch start ##
+epoch: 89 step: 6, loss is 0.3131382
+epoch time: 776.639 ms, per step time: 129.440 ms
+ Epoch 89/240, Eval_dice_loss:0.6619627567157559, EvalTime 4s
+## epoch start ##
+epoch: 90 step: 6, loss is 0.2978873
+epoch time: 758.627 ms, per step time: 126.438 ms
+ Epoch 90/240, Eval_dice_loss:0.5660866741164438, EvalTime 4s
+## epoch start ##
+epoch: 91 step: 6, loss is 0.30840912
+epoch time: 767.419 ms, per step time: 127.903 ms
+ Epoch 91/240, Eval_dice_loss:0.6659896561932457, EvalTime 4s
+## epoch start ##
+epoch: 92 step: 6, loss is 0.32067445
+epoch time: 830.935 ms, per step time: 138.489 ms
+ Epoch 92/240, Eval_dice_loss:0.648592177442311, EvalTime 4s
+## epoch start ##
+epoch: 93 step: 6, loss is 0.33470505
+epoch time: 743.897 ms, per step time: 123.983 ms
+ Epoch 93/240, Eval_dice_loss:0.6021533716910318, EvalTime 4s
+## epoch start ##
+epoch: 94 step: 6, loss is 0.31720257
+epoch time: 808.809 ms, per step time: 134.801 ms
+ Epoch 94/240, Eval_dice_loss:0.5602528589091403, EvalTime 4s
+## epoch start ##
+epoch: 95 step: 6, loss is 0.32497245
+epoch time: 809.149 ms, per step time: 134.858 ms
+ Epoch 95/240, Eval_dice_loss:0.40938461187371233, EvalTime 4s
+## epoch start ##
+epoch: 96 step: 6, loss is 0.32147315
+epoch time: 797.888 ms, per step time: 132.981 ms
+ Epoch 96/240, Eval_dice_loss:0.5977859178948101, EvalTime 4s
+## epoch start ##
+epoch: 97 step: 6, loss is 0.29939172
+epoch time: 781.853 ms, per step time: 130.309 ms
+ Epoch 97/240, Eval_dice_loss:0.5449921350561292, EvalTime 4s
+## epoch start ##
+epoch: 98 step: 6, loss is 0.32759804
+epoch time: 776.304 ms, per step time: 129.384 ms
+ Epoch 98/240, Eval_dice_loss:0.4285724937311444, EvalTime 4s
+## epoch start ##
+epoch: 99 step: 6, loss is 0.31148303
+epoch time: 767.191 ms, per step time: 127.865 ms
+ Epoch 99/240, Eval_dice_loss:0.6793987079465662, EvalTime 4s
+## epoch start ##
+epoch: 100 step: 6, loss is 0.32977998
+epoch time: 747.614 ms, per step time: 124.602 ms
+ Epoch 100/240, Eval_dice_loss:0.6863666808047307, EvalTime 4s
+## epoch start ##
+epoch: 101 step: 6, loss is 0.30619818
+epoch time: 790.102 ms, per step time: 131.684 ms
+ Epoch 101/240, Eval_dice_loss:0.578904362323601, EvalTime 4s
+## epoch start ##
+epoch: 102 step: 6, loss is 0.3089977
+epoch time: 738.501 ms, per step time: 123.084 ms
+ Epoch 102/240, Eval_dice_loss:0.5933932091049597, EvalTime 4s
+## epoch start ##
+epoch: 103 step: 6, loss is 0.31647834
+epoch time: 798.123 ms, per step time: 133.021 ms
+ Epoch 103/240, Eval_dice_loss:0.6272528752056217, EvalTime 4s
+## epoch start ##
+epoch: 104 step: 6, loss is 0.30312142
+epoch time: 775.401 ms, per step time: 129.233 ms
+ Epoch 104/240, Eval_dice_loss:0.6465450050847855, EvalTime 4s
+## epoch start ##
+epoch: 105 step: 6, loss is 0.30430442
+epoch time: 870.111 ms, per step time: 145.018 ms
+ Epoch 105/240, Eval_dice_loss:0.6796672189766476, EvalTime 4s
+## epoch start ##
+epoch: 106 step: 6, loss is 0.33114454
+epoch time: 895.816 ms, per step time: 149.303 ms
+ Epoch 106/240, Eval_dice_loss:0.6654631847105481, EvalTime 4s
+## epoch start ##
+epoch: 107 step: 6, loss is 0.30290037
+epoch time: 802.653 ms, per step time: 133.775 ms
+ Epoch 107/240, Eval_dice_loss:0.6774984553955764, EvalTime 4s
+## epoch start ##
+epoch: 108 step: 6, loss is 0.2823094
+epoch time: 749.218 ms, per step time: 124.870 ms
+ Epoch 108/240, Eval_dice_loss:0.6113989762172924, EvalTime 4s
+## epoch start ##
+epoch: 109 step: 6, loss is 0.29052788
+epoch time: 739.499 ms, per step time: 123.250 ms
+ Epoch 109/240, Eval_dice_loss:0.5554514372232401, EvalTime 4s
+## epoch start ##
+epoch: 110 step: 6, loss is 0.29788765
+epoch time: 775.790 ms, per step time: 129.298 ms
+ Epoch 110/240, Eval_dice_loss:0.6630442999559434, EvalTime 4s
+## epoch start ##
+epoch: 111 step: 6, loss is 0.2849137
+epoch time: 763.929 ms, per step time: 127.321 ms
+ Epoch 111/240, Eval_dice_loss:0.5555190146541084, EvalTime 4s
+## epoch start ##
+epoch: 112 step: 6, loss is 0.27257097
+epoch time: 760.776 ms, per step time: 126.796 ms
+ Epoch 112/240, Eval_dice_loss:0.6860953182280127, EvalTime 4s
+## epoch start ##
+epoch: 113 step: 6, loss is 0.2965803
+epoch time: 794.800 ms, per step time: 132.467 ms
+ Epoch 113/240, Eval_dice_loss:0.5594246716075567, EvalTime 4s
+## epoch start ##
+epoch: 114 step: 6, loss is 0.28773475
+epoch time: 769.427 ms, per step time: 128.238 ms
+ Epoch 114/240, Eval_dice_loss:0.6710929726977634, EvalTime 4s
+## epoch start ##
+epoch: 115 step: 6, loss is 0.30772498
+epoch time: 793.018 ms, per step time: 132.170 ms
+ Epoch 115/240, Eval_dice_loss:0.6394793420149494, EvalTime 4s
+## epoch start ##
+epoch: 116 step: 6, loss is 0.2933547
+epoch time: 801.234 ms, per step time: 133.539 ms
+ Epoch 116/240, Eval_dice_loss:0.6481431668345601, EvalTime 4s
+## epoch start ##
+epoch: 117 step: 6, loss is 0.29398677
+epoch time: 739.892 ms, per step time: 123.315 ms
+ Epoch 117/240, Eval_dice_loss:0.5920440479913102, EvalTime 4s
+## epoch start ##
+epoch: 118 step: 6, loss is 0.2946449
+epoch time: 774.636 ms, per step time: 129.106 ms
+ Epoch 118/240, Eval_dice_loss:0.5561848805333262, EvalTime 4s
+## epoch start ##
+epoch: 119 step: 6, loss is 0.2801153
+epoch time: 735.651 ms, per step time: 122.608 ms
+ Epoch 119/240, Eval_dice_loss:0.3638320759045228, EvalTime 4s
+## epoch start ##
+epoch: 120 step: 6, loss is 0.2884854
+epoch time: 733.456 ms, per step time: 122.243 ms
+ Epoch 120/240, Eval_dice_loss:0.6814495173482693, EvalTime 4s
+## epoch start ##
+epoch: 121 step: 6, loss is 0.2985653
+epoch time: 744.931 ms, per step time: 124.155 ms
+ Epoch 121/240, Eval_dice_loss:0.5580602695401612, EvalTime 4s
+## epoch start ##
+epoch: 122 step: 6, loss is 0.2905034
+epoch time: 794.963 ms, per step time: 132.494 ms
+ Epoch 122/240, Eval_dice_loss:0.658486129151985, EvalTime 4s
+## epoch start ##
+epoch: 123 step: 6, loss is 0.2938345
+epoch time: 794.621 ms, per step time: 132.437 ms
+ Epoch 123/240, Eval_dice_loss:0.7105185166694085, EvalTime 4s
+## epoch start ##
+epoch: 124 step: 6, loss is 0.2772605
+epoch time: 752.877 ms, per step time: 125.480 ms
+ Epoch 124/240, Eval_dice_loss:0.6367130908192905, EvalTime 4s
+## epoch start ##
+epoch: 125 step: 6, loss is 0.25949866
+epoch time: 754.494 ms, per step time: 125.749 ms
+ Epoch 125/240, Eval_dice_loss:0.5711955186581656, EvalTime 4s
+## epoch start ##
+epoch: 126 step: 6, loss is 0.28177264
+epoch time: 747.444 ms, per step time: 124.574 ms
+ Epoch 126/240, Eval_dice_loss:0.6212426704739588, EvalTime 4s
+## epoch start ##
+epoch: 127 step: 6, loss is 0.2756906
+epoch time: 794.722 ms, per step time: 132.454 ms
+ Epoch 127/240, Eval_dice_loss:0.6908695671881423, EvalTime 4s
+## epoch start ##
+epoch: 128 step: 6, loss is 0.27511302
+epoch time: 766.617 ms, per step time: 127.769 ms
+ Epoch 128/240, Eval_dice_loss:0.7168388330715247, EvalTime 4s
+## epoch start ##
+epoch: 129 step: 6, loss is 0.2821547
+epoch time: 773.526 ms, per step time: 128.921 ms
+ Epoch 129/240, Eval_dice_loss:0.674713072363066, EvalTime 4s
+## epoch start ##
+epoch: 130 step: 6, loss is 0.26879606
+epoch time: 738.072 ms, per step time: 123.012 ms
+ Epoch 130/240, Eval_dice_loss:0.6946708638170754, EvalTime 4s
+## epoch start ##
+epoch: 131 step: 6, loss is 0.25665537
+epoch time: 752.452 ms, per step time: 125.409 ms
+ Epoch 131/240, Eval_dice_loss:0.7076844959423539, EvalTime 4s
+## epoch start ##
+epoch: 132 step: 6, loss is 0.25827637
+epoch time: 754.990 ms, per step time: 125.832 ms
+ Epoch 132/240, Eval_dice_loss:0.6780772781394862, EvalTime 4s
+## epoch start ##
+epoch: 133 step: 6, loss is 0.24186884
+epoch time: 953.547 ms, per step time: 158.925 ms
+ Epoch 133/240, Eval_dice_loss:0.6641075173716283, EvalTime 4s
+## epoch start ##
+epoch: 134 step: 6, loss is 0.2627579
+epoch time: 812.859 ms, per step time: 135.476 ms
+ Epoch 134/240, Eval_dice_loss:0.625884035287965, EvalTime 4s
+## epoch start ##
+epoch: 135 step: 6, loss is 0.26065105
+epoch time: 758.518 ms, per step time: 126.420 ms
+ Epoch 135/240, Eval_dice_loss:0.692233407997556, EvalTime 4s
+## epoch start ##
+epoch: 136 step: 6, loss is 0.24966148
+epoch time: 790.927 ms, per step time: 131.821 ms
+ Epoch 136/240, Eval_dice_loss:0.7147743696308139, EvalTime 4s
+## epoch start ##
+epoch: 137 step: 6, loss is 0.2738877
+epoch time: 722.382 ms, per step time: 120.397 ms
+ Epoch 137/240, Eval_dice_loss:0.6323740887040706, EvalTime 4s
+## epoch start ##
+epoch: 138 step: 6, loss is 0.2776162
+epoch time: 782.114 ms, per step time: 130.352 ms
+ Epoch 138/240, Eval_dice_loss:0.5952083562372371, EvalTime 4s
+## epoch start ##
+epoch: 139 step: 6, loss is 0.25542942
+epoch time: 769.376 ms, per step time: 128.229 ms
+ Epoch 139/240, Eval_dice_loss:0.733732308105699, EvalTime 4s
+## epoch start ##
+epoch: 140 step: 6, loss is 0.26309815
+epoch time: 806.117 ms, per step time: 134.353 ms
+ Epoch 140/240, Eval_dice_loss:0.7151668197100106, EvalTime 4s
+## epoch start ##
+epoch: 141 step: 6, loss is 0.23698485
+epoch time: 789.860 ms, per step time: 131.643 ms
+ Epoch 141/240, Eval_dice_loss:0.5731158678692311, EvalTime 4s
+## epoch start ##
+epoch: 142 step: 6, loss is 0.26224717
+epoch time: 838.107 ms, per step time: 139.685 ms
+ Epoch 142/240, Eval_dice_loss:0.6332821748578646, EvalTime 4s
+## epoch start ##
+epoch: 143 step: 6, loss is 0.23143233
+epoch time: 789.350 ms, per step time: 131.558 ms
+ Epoch 143/240, Eval_dice_loss:0.7104430266726327, EvalTime 4s
+## epoch start ##
+epoch: 144 step: 6, loss is 0.24443367
+epoch time: 813.861 ms, per step time: 135.643 ms
+ Epoch 144/240, Eval_dice_loss:0.693816080803385, EvalTime 4s
+## epoch start ##
+epoch: 145 step: 6, loss is 0.25675803
+epoch time: 779.550 ms, per step time: 129.925 ms
+ Epoch 145/240, Eval_dice_loss:0.7320215678159919, EvalTime 4s
+## epoch start ##
+epoch: 146 step: 6, loss is 0.2445024
+epoch time: 743.149 ms, per step time: 123.858 ms
+ Epoch 146/240, Eval_dice_loss:0.7035713908265335, EvalTime 4s
+## epoch start ##
+epoch: 147 step: 6, loss is 0.25522065
+epoch time: 787.542 ms, per step time: 131.257 ms
+ Epoch 147/240, Eval_dice_loss:0.7343566975292886, EvalTime 4s
+## epoch start ##
+epoch: 148 step: 6, loss is 0.23267604
+epoch time: 778.955 ms, per step time: 129.826 ms
+ Epoch 148/240, Eval_dice_loss:0.7137787517975244, EvalTime 4s
+## epoch start ##
+epoch: 149 step: 6, loss is 0.23438394
+epoch time: 765.141 ms, per step time: 127.523 ms
+ Epoch 149/240, Eval_dice_loss:0.5744602622809284, EvalTime 4s
+## epoch start ##
+epoch: 150 step: 6, loss is 0.23052332
+epoch time: 796.173 ms, per step time: 132.695 ms
+ Epoch 150/240, Eval_dice_loss:0.5852500915337554, EvalTime 4s
+## epoch start ##
+epoch: 151 step: 6, loss is 0.23794574
+epoch time: 790.062 ms, per step time: 131.677 ms
+ Epoch 151/240, Eval_dice_loss:0.6973156808406026, EvalTime 4s
+## epoch start ##
+epoch: 152 step: 6, loss is 0.2354996
+epoch time: 816.956 ms, per step time: 136.159 ms
+ Epoch 152/240, Eval_dice_loss:0.5734216249479299, EvalTime 4s
+## epoch start ##
+epoch: 153 step: 6, loss is 0.20919992
+epoch time: 752.284 ms, per step time: 125.381 ms
+ Epoch 153/240, Eval_dice_loss:0.654075553495273, EvalTime 4s
+## epoch start ##
+epoch: 154 step: 6, loss is 0.23400386
+epoch time: 790.681 ms, per step time: 131.780 ms
+ Epoch 154/240, Eval_dice_loss:0.6887812919969898, EvalTime 4s
+## epoch start ##
+epoch: 155 step: 6, loss is 0.21943898
+epoch time: 801.527 ms, per step time: 133.588 ms
+ Epoch 155/240, Eval_dice_loss:0.5866330097046958, EvalTime 4s
+## epoch start ##
+epoch: 156 step: 6, loss is 0.23722804
+epoch time: 781.123 ms, per step time: 130.187 ms
+ Epoch 156/240, Eval_dice_loss:0.71437180932294, EvalTime 4s
+## epoch start ##
+epoch: 157 step: 6, loss is 0.21338218
+epoch time: 895.360 ms, per step time: 149.227 ms
+ Epoch 157/240, Eval_dice_loss:0.47150121142378065, EvalTime 4s
+## epoch start ##
+epoch: 158 step: 6, loss is 0.21663259
+epoch time: 775.541 ms, per step time: 129.257 ms
+ Epoch 158/240, Eval_dice_loss:0.735517691463674, EvalTime 4s
+## epoch start ##
+epoch: 159 step: 6, loss is 0.22445999
+epoch time: 765.824 ms, per step time: 127.637 ms
+ Epoch 159/240, Eval_dice_loss:0.5822164319234958, EvalTime 4s
+## epoch start ##
+epoch: 160 step: 6, loss is 0.2570113
+epoch time: 756.654 ms, per step time: 126.109 ms
+ Epoch 160/240, Eval_dice_loss:0.5935124206780817, EvalTime 4s
+## epoch start ##
+epoch: 161 step: 6, loss is 0.23222327
+epoch time: 741.318 ms, per step time: 123.553 ms
+ Epoch 161/240, Eval_dice_loss:0.5749385087144634, EvalTime 4s
+## epoch start ##
+epoch: 162 step: 6, loss is 0.2193784
+epoch time: 773.476 ms, per step time: 128.913 ms
+ Epoch 162/240, Eval_dice_loss:0.7406855701390169, EvalTime 4s
+## epoch start ##
+epoch: 163 step: 6, loss is 0.22255217
+epoch time: 800.060 ms, per step time: 133.343 ms
+ Epoch 163/240, Eval_dice_loss:0.6630650998379952, EvalTime 4s
+## epoch start ##
+epoch: 164 step: 6, loss is 0.23473915
+epoch time: 779.434 ms, per step time: 129.906 ms
+ Epoch 164/240, Eval_dice_loss:0.6083650043178901, EvalTime 4s
+## epoch start ##
+epoch: 165 step: 6, loss is 0.2133127
+epoch time: 808.186 ms, per step time: 134.698 ms
+ Epoch 165/240, Eval_dice_loss:0.586374022563505, EvalTime 4s
+## epoch start ##
+epoch: 166 step: 6, loss is 0.21997568
+epoch time: 733.905 ms, per step time: 122.318 ms
+ Epoch 166/240, Eval_dice_loss:0.5970627377228818, EvalTime 4s
+## epoch start ##
+epoch: 167 step: 6, loss is 0.22256505
+epoch time: 764.441 ms, per step time: 127.407 ms
+ Epoch 167/240, Eval_dice_loss:0.643627860781688, EvalTime 4s
+## epoch start ##
+epoch: 168 step: 6, loss is 0.21010336
+epoch time: 749.879 ms, per step time: 124.980 ms
+ Epoch 168/240, Eval_dice_loss:0.7342149208013207, EvalTime 4s
+## epoch start ##
+epoch: 169 step: 6, loss is 0.21379557
+epoch time: 775.562 ms, per step time: 129.260 ms
+ Epoch 169/240, Eval_dice_loss:0.7180429597852022, EvalTime 4s
+## epoch start ##
+epoch: 170 step: 6, loss is 0.20853491
+epoch time: 750.564 ms, per step time: 125.094 ms
+ Epoch 170/240, Eval_dice_loss:0.7303702119641643, EvalTime 4s
+## epoch start ##
+epoch: 171 step: 6, loss is 0.22257745
+epoch time: 801.649 ms, per step time: 133.608 ms
+ Epoch 171/240, Eval_dice_loss:0.7070008184376405, EvalTime 4s
+## epoch start ##
+epoch: 172 step: 6, loss is 0.20977779
+epoch time: 748.884 ms, per step time: 124.814 ms
+ Epoch 172/240, Eval_dice_loss:0.5752953497908105, EvalTime 4s
+## epoch start ##
+epoch: 173 step: 6, loss is 0.2124438
+epoch time: 775.736 ms, per step time: 129.289 ms
+ Epoch 173/240, Eval_dice_loss:0.48507035482854044, EvalTime 4s
+## epoch start ##
+epoch: 174 step: 6, loss is 0.20663048
+epoch time: 745.073 ms, per step time: 124.179 ms
+ Epoch 174/240, Eval_dice_loss:0.6724394384730735, EvalTime 4s
+## epoch start ##
+epoch: 175 step: 6, loss is 0.21926464
+epoch time: 797.202 ms, per step time: 132.867 ms
+ Epoch 175/240, Eval_dice_loss:0.6234555418544998, EvalTime 4s
+## epoch start ##
+epoch: 176 step: 6, loss is 0.23024453
+epoch time: 759.220 ms, per step time: 126.537 ms
+ Epoch 176/240, Eval_dice_loss:0.6313712267619306, EvalTime 4s
+## epoch start ##
+epoch: 177 step: 6, loss is 0.2028261
+epoch time: 755.590 ms, per step time: 125.932 ms
+ Epoch 177/240, Eval_dice_loss:0.6673304652376412, EvalTime 4s
+## epoch start ##
+epoch: 178 step: 6, loss is 0.22198623
+epoch time: 720.771 ms, per step time: 120.128 ms
+ Epoch 178/240, Eval_dice_loss:0.7470847989363937, EvalTime 4s
+## epoch start ##
+epoch: 179 step: 6, loss is 0.20086576
+epoch time: 740.705 ms, per step time: 123.451 ms
+ Epoch 179/240, Eval_dice_loss:0.7416236806505827, EvalTime 4s
+## epoch start ##
+epoch: 180 step: 6, loss is 0.2132443
+epoch time: 781.699 ms, per step time: 130.283 ms
+ Epoch 180/240, Eval_dice_loss:0.7074827651790142, EvalTime 3s
+## epoch start ##
+epoch: 181 step: 6, loss is 0.205902
+epoch time: 786.967 ms, per step time: 131.161 ms
+ Epoch 181/240, Eval_dice_loss:0.7469456376286813, EvalTime 3s
+## epoch start ##
+epoch: 182 step: 6, loss is 0.19176531
+epoch time: 857.144 ms, per step time: 142.857 ms
+ Epoch 182/240, Eval_dice_loss:0.7430554692621603, EvalTime 4s
+## epoch start ##
+epoch: 183 step: 6, loss is 0.20030501
+epoch time: 806.318 ms, per step time: 134.386 ms
+ Epoch 183/240, Eval_dice_loss:0.7508922447014124, EvalTime 3s
+## epoch start ##
+epoch: 184 step: 6, loss is 0.20725591
+epoch time: 756.222 ms, per step time: 126.037 ms
+ Epoch 184/240, Eval_dice_loss:0.6182228611453402, EvalTime 4s
+## epoch start ##
+epoch: 185 step: 6, loss is 0.18791561
+epoch time: 747.433 ms, per step time: 124.572 ms
+ Epoch 185/240, Eval_dice_loss:0.6407641928345945, EvalTime 4s
+## epoch start ##
+epoch: 186 step: 6, loss is 0.1920719
+epoch time: 784.109 ms, per step time: 130.685 ms
+ Epoch 186/240, Eval_dice_loss:0.5559353794149826, EvalTime 4s
+## epoch start ##
+epoch: 187 step: 6, loss is 0.21865593
+epoch time: 787.696 ms, per step time: 131.283 ms
+ Epoch 187/240, Eval_dice_loss:0.669139642509196, EvalTime 4s
+## epoch start ##
+epoch: 188 step: 6, loss is 0.19585124
+epoch time: 799.448 ms, per step time: 133.241 ms
+ Epoch 188/240, Eval_dice_loss:0.6934856218723775, EvalTime 4s
+## epoch start ##
+epoch: 189 step: 6, loss is 0.17928492
+epoch time: 812.875 ms, per step time: 135.479 ms
+ Epoch 189/240, Eval_dice_loss:0.5908297519596023, EvalTime 4s
+## epoch start ##
+epoch: 190 step: 6, loss is 0.19359599
+epoch time: 770.352 ms, per step time: 128.392 ms
+ Epoch 190/240, Eval_dice_loss:0.7414911034626891, EvalTime 4s
+## epoch start ##
+epoch: 191 step: 6, loss is 0.18182844
+epoch time: 778.268 ms, per step time: 129.711 ms
+ Epoch 191/240, Eval_dice_loss:0.5682643643714055, EvalTime 4s
+## epoch start ##
+epoch: 192 step: 6, loss is 0.21098599
+epoch time: 768.900 ms, per step time: 128.150 ms
+ Epoch 192/240, Eval_dice_loss:0.7425504517501301, EvalTime 4s
+## epoch start ##
+epoch: 193 step: 6, loss is 0.19769742
+epoch time: 720.186 ms, per step time: 120.031 ms
+ Epoch 193/240, Eval_dice_loss:0.680047888787394, EvalTime 4s
+## epoch start ##
+epoch: 194 step: 6, loss is 0.19056088
+epoch time: 826.748 ms, per step time: 137.791 ms
+ Epoch 194/240, Eval_dice_loss:0.6282873041634865, EvalTime 4s
+## epoch start ##
+epoch: 195 step: 6, loss is 0.18774892
+epoch time: 738.061 ms, per step time: 123.010 ms
+ Epoch 195/240, Eval_dice_loss:0.6292671141186036, EvalTime 4s
+## epoch start ##
+epoch: 196 step: 6, loss is 0.19899316
+epoch time: 794.880 ms, per step time: 132.480 ms
+ Epoch 196/240, Eval_dice_loss:0.6230440650863044, EvalTime 4s
+## epoch start ##
+epoch: 197 step: 6, loss is 0.2009563
+epoch time: 775.700 ms, per step time: 129.283 ms
+ Epoch 197/240, Eval_dice_loss:0.7552457868640046, EvalTime 4s
+## epoch start ##
+epoch: 198 step: 6, loss is 0.19474408
+epoch time: 729.223 ms, per step time: 121.537 ms
+ Epoch 198/240, Eval_dice_loss:0.7357671382365488, EvalTime 4s
+## epoch start ##
+epoch: 199 step: 6, loss is 0.18517444
+epoch time: 751.210 ms, per step time: 125.202 ms
+ Epoch 199/240, Eval_dice_loss:0.7271613237737582, EvalTime 4s
+## epoch start ##
+epoch: 200 step: 6, loss is 0.21241625
+epoch time: 769.422 ms, per step time: 128.237 ms
+ Epoch 200/240, Eval_dice_loss:0.7297551195108135, EvalTime 4s
+## epoch start ##
+epoch: 201 step: 6, loss is 0.1714617
+epoch time: 721.188 ms, per step time: 120.198 ms
+ Epoch 201/240, Eval_dice_loss:0.7404613799343879, EvalTime 4s
+## epoch start ##
+epoch: 202 step: 6, loss is 0.21051994
+epoch time: 776.302 ms, per step time: 129.384 ms
+ Epoch 202/240, Eval_dice_loss:0.6889643278142435, EvalTime 4s
+## epoch start ##
+epoch: 203 step: 6, loss is 0.18961932
+epoch time: 756.995 ms, per step time: 126.166 ms
+ Epoch 203/240, Eval_dice_loss:0.7358243003442247, EvalTime 4s
+## epoch start ##
+epoch: 204 step: 6, loss is 0.2080575
+epoch time: 724.761 ms, per step time: 120.793 ms
+ Epoch 204/240, Eval_dice_loss:0.6583377597573806, EvalTime 4s
+## epoch start ##
+epoch: 205 step: 6, loss is 0.17382394
+epoch time: 766.994 ms, per step time: 127.832 ms
+ Epoch 205/240, Eval_dice_loss:0.6525336611241879, EvalTime 4s
+## epoch start ##
+epoch: 206 step: 6, loss is 0.18024749
+epoch time: 735.620 ms, per step time: 122.603 ms
+ Epoch 206/240, Eval_dice_loss:0.7235948281369801, EvalTime 4s
+## epoch start ##
+epoch: 207 step: 6, loss is 0.196979
+epoch time: 757.231 ms, per step time: 126.205 ms
+ Epoch 207/240, Eval_dice_loss:0.6839086197190758, EvalTime 4s
+## epoch start ##
+epoch: 208 step: 6, loss is 0.18084124
+epoch time: 746.287 ms, per step time: 124.381 ms
+ Epoch 208/240, Eval_dice_loss:0.7298395179474598, EvalTime 4s
+## epoch start ##
+epoch: 209 step: 6, loss is 0.18123911
+epoch time: 804.487 ms, per step time: 134.081 ms
+ Epoch 209/240, Eval_dice_loss:0.6981013423308474, EvalTime 4s
+## epoch start ##
+epoch: 210 step: 6, loss is 0.1992298
+epoch time: 764.166 ms, per step time: 127.361 ms
+ Epoch 210/240, Eval_dice_loss:0.6280244351178814, EvalTime 4s
+## epoch start ##
+epoch: 211 step: 6, loss is 0.17976959
+epoch time: 814.468 ms, per step time: 135.745 ms
+ Epoch 211/240, Eval_dice_loss:0.7643420469820518, EvalTime 4s
+## epoch start ##
+epoch: 212 step: 6, loss is 0.19103931
+epoch time: 654.309 ms, per step time: 109.052 ms
+ Epoch 212/240, Eval_dice_loss:0.7483599506609299, EvalTime 4s
+## epoch start ##
+epoch: 213 step: 6, loss is 0.15055253
+epoch time: 652.974 ms, per step time: 108.829 ms
+ Epoch 213/240, Eval_dice_loss:0.752765332553991, EvalTime 4s
+## epoch start ##
+epoch: 214 step: 6, loss is 0.18253805
+epoch time: 657.100 ms, per step time: 109.517 ms
+ Epoch 214/240, Eval_dice_loss:0.7260540664643513, EvalTime 4s
+## epoch start ##
+epoch: 215 step: 6, loss is 0.19401954
+epoch time: 628.217 ms, per step time: 104.703 ms
+ Epoch 215/240, Eval_dice_loss:0.7670455411386518, EvalTime 4s
+## epoch start ##
+epoch: 216 step: 6, loss is 0.19154696
+epoch time: 674.629 ms, per step time: 112.438 ms
+ Epoch 216/240, Eval_dice_loss:0.6504154504430056, EvalTime 4s
+## epoch start ##
+epoch: 217 step: 6, loss is 0.17388895
+epoch time: 632.928 ms, per step time: 105.488 ms
+ Epoch 217/240, Eval_dice_loss:0.7342014981359433, EvalTime 4s
+## epoch start ##
+epoch: 218 step: 6, loss is 0.14691071
+epoch time: 652.848 ms, per step time: 108.808 ms
+ Epoch 218/240, Eval_dice_loss:0.7490514170515441, EvalTime 4s
+## epoch start ##
+epoch: 219 step: 6, loss is 0.17053762
+epoch time: 636.691 ms, per step time: 106.115 ms
+ Epoch 219/240, Eval_dice_loss:0.6480179644162903, EvalTime 4s
+## epoch start ##
+epoch: 220 step: 6, loss is 0.1634694
+epoch time: 635.825 ms, per step time: 105.971 ms
+ Epoch 220/240, Eval_dice_loss:0.6050169890173452, EvalTime 3s
+## epoch start ##
+epoch: 221 step: 6, loss is 0.15160018
+epoch time: 631.163 ms, per step time: 105.194 ms
+ Epoch 221/240, Eval_dice_loss:0.7102397320863286, EvalTime 3s
+## epoch start ##
+epoch: 222 step: 6, loss is 0.19502436
+epoch time: 668.655 ms, per step time: 111.442 ms
+ Epoch 222/240, Eval_dice_loss:0.7404694682110855, EvalTime 4s
+## epoch start ##
+epoch: 223 step: 6, loss is 0.14959899
+epoch time: 644.529 ms, per step time: 107.421 ms
+ Epoch 223/240, Eval_dice_loss:0.30165519124811785, EvalTime 3s
+## epoch start ##
+epoch: 224 step: 6, loss is 0.16381334
+epoch time: 625.647 ms, per step time: 104.274 ms
+ Epoch 224/240, Eval_dice_loss:0.7435201175739578, EvalTime 3s
+## epoch start ##
+epoch: 225 step: 6, loss is 0.15780021
+epoch time: 662.551 ms, per step time: 110.425 ms
+ Epoch 225/240, Eval_dice_loss:0.6936183852941386, EvalTime 3s
+## epoch start ##
+epoch: 226 step: 6, loss is 0.15300502
+epoch time: 639.984 ms, per step time: 106.664 ms
+ Epoch 226/240, Eval_dice_loss:0.709987212835378, EvalTime 3s
+## epoch start ##
+epoch: 227 step: 6, loss is 0.158564
+epoch time: 658.012 ms, per step time: 109.669 ms
+ Epoch 227/240, Eval_dice_loss:0.6722503684698387, EvalTime 3s
+## epoch start ##
+epoch: 228 step: 6, loss is 0.16107823
+epoch time: 664.955 ms, per step time: 110.826 ms
+ Epoch 228/240, Eval_dice_loss:0.5923372782837364, EvalTime 3s
+## epoch start ##
+epoch: 229 step: 6, loss is 0.15200421
+epoch time: 650.567 ms, per step time: 108.428 ms
+ Epoch 229/240, Eval_dice_loss:0.7292153767679679, EvalTime 3s
+## epoch start ##
+epoch: 230 step: 6, loss is 0.17204139
+epoch time: 630.597 ms, per step time: 105.099 ms
+ Epoch 230/240, Eval_dice_loss:0.7416875499439186, EvalTime 3s
+## epoch start ##
+epoch: 231 step: 6, loss is 0.18336834
+epoch time: 635.222 ms, per step time: 105.870 ms
+ Epoch 231/240, Eval_dice_loss:0.7080480345137351, EvalTime 3s
+## epoch start ##
+epoch: 232 step: 6, loss is 0.20494096
+epoch time: 664.015 ms, per step time: 110.669 ms
+ Epoch 232/240, Eval_dice_loss:0.7247088849192108, EvalTime 3s
+## epoch start ##
+epoch: 233 step: 6, loss is 0.19442512
+epoch time: 646.058 ms, per step time: 107.676 ms
+ Epoch 233/240, Eval_dice_loss:0.7602836125594399, EvalTime 3s
+## epoch start ##
+epoch: 234 step: 6, loss is 0.1879259
+epoch time: 631.088 ms, per step time: 105.181 ms
+ Epoch 234/240, Eval_dice_loss:0.5436756358354503, EvalTime 3s
+## epoch start ##
+epoch: 235 step: 6, loss is 0.17279918
+epoch time: 684.532 ms, per step time: 114.089 ms
+ Epoch 235/240, Eval_dice_loss:0.6424958273871644, EvalTime 3s
+## epoch start ##
+epoch: 236 step: 6, loss is 0.15247333
+epoch time: 617.529 ms, per step time: 102.922 ms
+ Epoch 236/240, Eval_dice_loss:0.6821337135075326, EvalTime 2s
+## epoch start ##
+epoch: 237 step: 6, loss is 0.17369679
+epoch time: 619.863 ms, per step time: 103.310 ms
+ Epoch 237/240, Eval_dice_loss:0.6126116231316298, EvalTime 2s
+## epoch start ##
+epoch: 238 step: 6, loss is 0.16514021
+epoch time: 654.726 ms, per step time: 109.121 ms
+ Epoch 238/240, Eval_dice_loss:0.7402428968331387, EvalTime 2s
+## epoch start ##
+epoch: 239 step: 6, loss is 0.18004419
+epoch time: 628.889 ms, per step time: 104.815 ms
+ Epoch 239/240, Eval_dice_loss:0.581189200921253, EvalTime 2s
+## epoch start ##
+epoch: 240 step: 6, loss is 0.14508829
+epoch time: 629.811 ms, per step time: 104.968 ms
+ Epoch 240/240, Eval_dice_loss:0.7633118104549026, EvalTime 2s
+
